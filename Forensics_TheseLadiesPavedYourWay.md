@@ -10,8 +10,10 @@ What other secrets does she hold?
 
 ## Solve
 We have images inside the zip, let's use exiftool and see if we get any useful information.
-![exiftool](src/ladies_exiftool.png)
+
 Okay, one of them's result is interesting...
+![exiftool](src/ladies_exiftool.png)
+
 ```
 Credit                          : U3Bhbm5pbmdUcmVlVmlnCg==
 Keywords                        : VpwtPBS{r0m5 0W t4x3IB5}
